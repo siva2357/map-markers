@@ -1,0 +1,56 @@
+.map {
+    position: static !important;
+  }
+  
+  .map-marker-info-window-container {
+    /* Your container styles */
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed or set a fixed height */
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  
+  .map-marker-info-window-container ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+  }
+  
+  .map-marker-info-window-container li {
+    margin-bottom: 5px; /* Adjust as needed */
+  }
+  
+  .map-marker-item-key {
+    font-weight: bold; /* Make keys bold */
+    display: inline-block; /* Ensure keys and values are on the same line */
+    width: 80px; /* Adjust width as needed for alignment */
+    vertical-align: top; /* Align items to the top */
+  }
+  
+  .map-marker-item-value {
+    display: inline-block;
+    width: calc(100% - 90px); /* Adjust width as needed for alignment */
+    text-align: justify; /* Justify value text */
+    vertical-align: top; /* Align items to the top */
+    word-wrap: break-word; /* Allow text to wrap to next line */
+  }
+  
+  
+  
+  .status-circle {
+      display: inline-block;
+      width: 10px; /* Adjust size as needed */
+      height: 10px; /* Adjust size as needed */
+      border-radius: 50%;
+      margin-left: 5px; margin-top: 5px; /* Adjust spacing as needed */
+      position: relative;
+      border: 2px solid black; /* Outer black border */
+    }
+    
+    .active {
+      background-color:  green; /* Inner circle color for active status */
+    }
+    
+    .inactive {
+      background-color: gray; /* Inner circle color for inactive status */
+    }
